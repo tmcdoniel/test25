@@ -5350,6 +5350,28 @@ Nze35UlFAC7m9vyo3N7flSUUALub2/Kjc3t+VJRQB//Z
 			<bindings>
 			</bindings>
 		</explicitdelayitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="ef8aecf9-cd23-4ff8-bdb2-dc13939f71fa">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="1e27049b-4add-41c3-a887-a13005ec1fd1"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@controlname='RxMainFrame']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</loggingrecorditem>
 	</recorditems>
 	<repository
 	id="8a6ff820-43b3-4ae2-b684-c523cb8bff3c"

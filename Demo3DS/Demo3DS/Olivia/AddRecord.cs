@@ -214,6 +214,8 @@ namespace Demo3DS.Olivia
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(21));
             Delay.Duration(2000, false);
             
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.RxMainFrame.Self, false, new RecordItemIndex(22));
+            
         }
 
 #region Image Feature Data
