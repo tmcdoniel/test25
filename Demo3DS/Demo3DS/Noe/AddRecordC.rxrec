@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="0d270eec-f65c-4250-988e-abdcb7daae26"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AddRecordC"
+	namespace="Demo3DS.Noe">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="8a6ff820-43b3-4ae2-b684-c523cb8bff3c"
+	name="Demo3DSRepository"
+	relativepath="..\Demo3DSRepository.rxrep">
+		<codegen
+		classname="Demo3DSRepository"
+		namespace="Demo3DS">
+		</codegen>
+		<rootfolder
+		id="83d651f3-f932-480e-a2cd-97b86357971d"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AddRecordC.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

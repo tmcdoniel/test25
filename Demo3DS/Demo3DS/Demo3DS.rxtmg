@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="Demo3DS"
+      id="5fd3e45c-fac1-44ae-9207-1997378927b0"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="Demo3DS"
+      id="5fd3e45c-fac1-44ae-9207-1997378927b0"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

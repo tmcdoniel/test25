@@ -1,0 +1,248 @@
+﻿<repository
+id="8a6ff820-43b3-4ae2-b684-c523cb8bff3c"
+name="Demo3DSRepository">
+	<codegen
+	classname="Demo3DSRepository"
+	namespace="Demo3DS">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="83d651f3-f932-480e-a2cd-97b86357971d"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="1e27049b-4add-41c3-a887-a13005ec1fd1"
+		isrooted="True"
+		name="RxMainFrame"
+		refpath="/form[@controlname='RxMainFrame']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@controlname='RxMainFrame']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAB9SURBVDhPY0AGwcHBi4D4NxD/x4NB8r+DgoJa
+odogACj4BqQAyiUdwDQ/YBfa+oBN6CA+DNaADmAGAAlGIGbCh8Ea0AHIACD+B8RficFQbQgAFAQa
+TjwABuI3KBMCSDEgICBAeNSAUQOwGgACIEOAEt8JYaC6H0AaaAADAwC5s5VutWbaWgAAAABJRU5E
+rkJggg==
+			</icon>
+		</appfolder>
+		<folder
+		capname="unknown"
+		id="515df4b5-dc2e-4f42-a085-2f86e1062f91"
+		isrooted="False"
+		name="AddEntry"
+		searchtimeout="0ms">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="e18999f1-0c94-4870-b42a-8a806c541dbc"
+			name="FirstNameField"
+			refimgid="80227091-01ec-46b6-8c5e-866cac78e306"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabStandard']/text[@controlname='txtFirstName']/text[@accessiblename='First name']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@controlname='RxMainFrame']//text[@accessiblename='First name']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="88b9f1db-07d1-432b-aeea-5566618e220f"
+			name="LastNameField"
+			refimgid="fb76c996-2ad2-4c88-b91b-f84e51e14a95"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabStandard']/text[@controlname='txtLastName']/text[@accessiblename='Last name']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@controlname='RxMainFrame']//text[@accessiblename='Last name']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="ae8bf5f4-67e4-43f2-a2d1-b10bf1d0f7a9"
+			name="AgeField"
+			refimgid="85f2fef5-f14d-49da-a433-88e20b1e48be"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabStandard']/container[@controlname='txtAge']/text[@controlname='upDownEdit']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@controlname='RxMainFrame']//text[@controlname='upDownEdit']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="cb633b9a-8610-4d54-920f-361d143b3f59"
+			name="DeptDownBtn"
+			refimgid="77109a1d-ef19-47a7-aaae-07d56216f936"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabStandard']/combobox/button[@accessiblename='Open']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@controlname='RxMainFrame']//button[@accessiblename='Open']
+			</item>
+			<item
+			addcaps="radiobutton,control,nativewindow"
+			capname="radiobutton"
+			id="806a0513-9fe0-4b7a-a12c-aa1542e2604a"
+			name="GenderRadioBtn"
+			refimgid="e60ec5f3-76c7-4f1d-8985-29ffa3e93aa2"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@controlname='RxMainFrame']//radiobutton[@controlname=$varGender]
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="8d81e910-2622-42c1-90b8-81da7a3d79a7"
+			name="AddPersonBtn"
+			refimgid="eb99ebab-2100-4697-adad-17fd7cca1276"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabStandard']/button[@controlname='btnAddPerson']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@controlname='RxMainFrame']//button[@controlname='btnAddPerson']
+			</item>
+			<item
+			addcaps="listitem,nativeitem,checkable"
+			capname="listitem"
+			id="3a814bc5-2ced-474f-b1bc-62da3ac5e240"
+			name="Department"
+			refimgid="fa2c426e-ba55-4c8d-98f9-8a33efd3f7dd"
+			robustPath=""
+			searchtimeout="30000ms">
+				/list[@controlid='1000']/listitem[@text=$varDepartment]
+			</item>
+		</folder>
+		<folder
+		capname="unknown"
+		id="137ee75b-7895-40ef-a0ca-85f5b2395bfe"
+		isrooted="False"
+		name="SelectTab"
+		searchtimeout="0ms">
+			<item
+			addcaps="tabpage,accessible"
+			capname="tabpage"
+			id="81d97216-bf88-46be-8935-4ec3a31036d9"
+			name="TestDatabase"
+			refimgid="a9a1e8b8-5f4e-432c-8556-5c4b1cfb6b61"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@accessiblename='Test database']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@controlname='RxMainFrame']/?/?/tabpage[@accessiblename='Test database']
+			</item>
+		</folder>
+		<folder
+		capname="unknown"
+		id="1901f645-95b2-47bb-920f-3942c6c16eb1"
+		isrooted="False"
+		name="ValidateItems"
+		searchtimeout="0ms">
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="26fb437e-a2c2-4819-bb55-b8e60a95c4d3"
+			name="LblNumberOfPersonsNumber"
+			refimgid="fea877dc-dba1-41bc-b6f2-94ac70e11a33"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist[@controlname='RxTabcontrol']/tabpage[@controlname='RxTabStandard']/text[@controlname='lblNumberOfPersonsNumber']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@controlname='RxMainFrame']//text[@controlname='lblNumberOfPersonsNumber']
+			</item>
+		</folder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="4ad5b588-098e-4368-b5c7-c0f340271864"
+		isrooted="True"
+		name="Form1"
+		refpath="/form[@controlname='Form1']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="87f8b045-a6de-49d7-93f2-35e6d39d6579"
+			name="Button1"
+			refimgid="a674d532-f670-4af7-989a-730803a2313c"
+			refpath="/form[@controlname='Form1']/button[@controlname='button1']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@controlname='Form1']/button[@controlname='button1']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="ee0451eb-3105-4731-a5d6-53c664d86031"
+			name="BtResetUI"
+			refimgid="1606dfd7-7f2f-4f17-88bf-576c1306e8dd"
+			refpath="/form[@controlname='Form1']/button[@controlname='btResetUI']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@controlname='Form1']/button[@controlname='btResetUI']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="28072df4-9003-4ee3-afaf-1f1b77b65fae"
+			name="LbFinished"
+			refimgid="830771f2-9d4d-417d-8ad7-7795cfd9e8ca"
+			refpath="/form[@controlname='Form1']/text[@controlname='lbFinished']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@controlname='Form1']/text[@controlname='lbFinished']
+			</item>
+			<item
+			addcaps="progressbar,control,nativewindow"
+			capname="progressbar"
+			id="7144ef61-e8ca-4df0-9102-8d9bff66ea08"
+			name="ProgressBar1"
+			refimgid="0de58d12-7e10-41e1-bceb-8ccf16334ad9"
+			refpath="/form[@controlname='Form1']/progressbar[@controlname='progressBar1']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@controlname='Form1']/progressbar[@controlname='progressBar1']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="c5f60713-1256-4df6-9805-3804efd55924"
+			name="LbProgress"
+			refimgid="447ba754-49a3-4c10-800e-76dbd8d569c1"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@controlname='Form1']/text[@controlname='lbProgress' and @text='100']
+			</item>
+			<basepath>
+				/form[@controlname='Form1']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH4SURBVDhPrdFdSJNhGMbxR1BzhTJzapnsJGgU
+RnQQEXYQhGkEgRIUihSzrKyEMM0ME00ENRY6WjPLmOasObKkHDTKmoSBERUZbNWsVdtys/nRKjr5
+9+F74AvBwLrggufk/l0Hj/gveTDoYD6VzmcB6SnLsDGZbxOdfPW2EnbXMDNawvTjPCaHNnKlOj4y
+MGRQEfY08cVVzsyzQqYeZTN5by2fB9R0VC6KDNxvTZqzmknIrmGiP4VxaxzGsoVyYGxNNM7VMTzP
+iGVkVRyOlQrsusVMDWcT+r1qUxPoS+DTtWh83QJ9qUIOTN/sJWQ2ETDq8Taexro8noEmJaE7GoL9
+yQR6Ffh7ovjYJfBcFuhK4uRA8KIBf3MDnqpy3hwoQq9O5EaDkuCv1XFLDD6z4INJ8K5D4G4XNO5f
+IAfenzqB+3AxzvwdvMjZTPWSFCy1CfivRuGVVscuCV63CZxGQX1RrBxwFe5idFsWTzPXMZKh4aAq
+7a9/P7fS+SxQkZrKEdVSipPS2J24jAJlOlV9b+l08Kftd+GsDequw7Fu2HrcJgekpyxlZhdGO5y5
+DTVWONoF+9qgoOUH67U9kYG9hiectECpCbTnIV/3ndz6ADmVr1iReyEykFc3yJ5zsLM5zPZaH1sq
+XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="ee50d8d7-8cd8-4648-8c02-7a9ba6de13b5"
+		name="varDepartment">
+			Testing
+		</var>
+		<var
+		id="a067eebf-5e2b-4389-b51c-d3881940387e"
+		name="varGender">
+			rdbMale
+		</var>
+	</variables>
+</repository>

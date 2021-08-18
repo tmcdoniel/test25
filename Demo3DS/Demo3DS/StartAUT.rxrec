@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="65ed3a70-6192-4029-93cf-b83b013e202f"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="Demo3DS">
+	</codegen>
+	<variables>
+		<var
+		id="d8c5f159-1fe1-4839-8381-2ea2fda97ce9"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Users\Timothy McDoniel\Documents\Demo\RxDemoApp.exe
+			</filename>
+			<workingdir>
+				C:\Users\Timothy McDoniel\Documents\Demo
+			</workingdir>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="8a6ff820-43b3-4ae2-b684-c523cb8bff3c"
+	name="Demo3DSRepository"
+	relativepath="Demo3DSRepository.rxrep">
+		<codegen
+		classname="Demo3DSRepository"
+		namespace="Demo3DS">
+		</codegen>
+		<rootfolder
+		id="83d651f3-f932-480e-a2cd-97b86357971d"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

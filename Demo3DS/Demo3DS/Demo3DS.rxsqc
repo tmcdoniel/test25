@@ -1,0 +1,37 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "Demo3DS",
+    "RunConfig": "TestCaseB"
+  },
+  {
+    "Enabled": "False",
+    "TestSuite": "Tim",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "False",
+    "TestSuite": "Tina",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "False",
+    "TestSuite": "Connor",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "False",
+    "TestSuite": "Olivia",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "False",
+    "TestSuite": "Noe",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "False",
+    "TestSuite": "Stephanie",
+    "RunConfig": "TestRun"
+  }
+]

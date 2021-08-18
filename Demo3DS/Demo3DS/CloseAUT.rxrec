@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="8eb591cb-55bc-467e-b4ac-8cc9885f99e8"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="Demo3DS">
+	</codegen>
+	<variables>
+		<var
+		id="1fdb5c86-14cb-43be-80b4-283921723eb7"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="15f5852d-db99-4167-b8b9-a5eed9a70b41">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="8a6ff820-43b3-4ae2-b684-c523cb8bff3c"
+	name="Demo3DSRepository"
+	relativepath="Demo3DSRepository.rxrep">
+		<codegen
+		classname="Demo3DSRepository"
+		namespace="Demo3DS">
+		</codegen>
+		<rootfolder
+		id="83d651f3-f932-480e-a2cd-97b86357971d"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,200 @@
+﻿<repository
+id="9a327514-624b-4ad3-87dc-8c1f135bfc98"
+name="MyTest21Repository">
+	<codegen
+	classname="MyTest21Repository"
+	namespace="MyTest21">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="166f73d0-9c60-4465-a9f0-22280902bee4"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="0b3b558d-65bd-49f4-9c02-299b60bd76c2"
+		isrooted="True"
+		name="RanorexVIPDatabaseTestWebApplicatio"
+		refpath="/dom[@domain='www.ranorex.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="9a6de4e1-485d-4cf6-b273-6297383f50a6"
+			name="FirstName"
+			refimgid="c2b5660c-6ab2-4991-80bc-e1523884e36e"
+			refpath="/dom[@domain='www.ranorex.com']//input[#'FirstName']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//input[#'FirstName']
+			</item>
+			<item
+			addcaps="unknown,webelement,tdtag"
+			capname="tdtag"
+			id="5004a869-b423-4128-ba63-edb86b3c5b95"
+			name="SomeTdTag"
+			refimgid="6224c4b6-a33f-4813-b610-41a1a97a5d6e"
+			refpath="/dom[@domain='www.ranorex.com']//div[#'Content']/table/tbody/tr[2]/td/form/table/tbody/tr/td[1]/table/tbody/tr[1]/td[2]"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//div[#'Content']//form/table/tbody/tr/td[1]/table/tbody/tr[1]/td[2]
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="968c5af6-fc81-47a5-b7c5-f45ba533f4e9"
+			name="LastName"
+			refimgid="1622589a-90d1-4c24-8323-c1045b0adf22"
+			refpath="/dom[@domain='www.ranorex.com']//input[#'LastName']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//input[#'LastName']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="50f08c9d-3722-4732-873b-057a30a083ea"
+			name="Gender"
+			refimgid="63152584-f601-428e-ab88-d251075c1592"
+			refpath="/dom[@domain='www.ranorex.com']//td[#'gender']/table/tbody/tr[3]/td/input[@id='Gender']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//td[#'gender']//input[@name='Gender' and @type='radio' and @value='male']
+			</item>
+			<item
+			addcaps="unknown,webelement,optiontag"
+			capname="optiontag"
+			id="bb0a88bf-5ff2-478c-ae95-f3424e214daa"
+			name="Movie"
+			refimgid="089d5643-7c4d-49c5-9ec2-b898eb6330dd"
+			refpath="/dom[@domain='www.ranorex.com']//select[#'Category']/option[@value='Movie']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//select[#'Category']/option[@value='Movie']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="66504ce1-54d5-44cd-95b5-5b84f1fc9e64"
+			name="InputTagAdd"
+			refimgid="ab783baa-f027-4d00-8742-11642cb9a036"
+			refpath="/dom[@domain='www.ranorex.com']//input[#'Add']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//input[#'Add']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="fba110a6-65d0-4280-8495-507a3b33907d"
+			name="Clear"
+			refimgid="33a5eee6-8c75-44c0-bc33-e32f7485c71e"
+			refpath="/dom[@domain='www.ranorex.com']//input[#'Clear']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//input[#'Clear']
+			</item>
+			<basepath>
+				/dom[@domain='www.ranorex.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="8904b218-e50e-4ba0-b051-a93650c26977"
+		isrooted="True"
+		name="Form1"
+		refpath="/form[@controlname='Form1']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="checkbox,control,nativewindow"
+			capname="checkbox"
+			id="bf28b9a5-dd02-4bf6-a1c5-d10f26dca6d8"
+			name="CheckBox1"
+			refimgid="2c2ca228-2040-4311-b290-ca034833a17c"
+			refpath="/form[@controlname='Form1']/checkbox[@controlname='CheckBox1']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@controlname='Form1']/checkbox[@controlname='CheckBox1']
+			</item>
+			<basepath>
+				/form[@controlname='Form1']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH4SURBVDhPrdFdSJNhGMbxR1BzhTJzapnsJGgU
+RnQQEXYQhGkEgRIUihSzrKyEMM0ME00ENRY6WjPLmOasObKkHDTKmoSBERUZbNWsVdtys/nRKjr5
+9+F74AvBwLrggufk/l0Hj/gveTDoYD6VzmcB6SnLsDGZbxOdfPW2EnbXMDNawvTjPCaHNnKlOj4y
+MGRQEfY08cVVzsyzQqYeZTN5by2fB9R0VC6KDNxvTZqzmknIrmGiP4VxaxzGsoVyYGxNNM7VMTzP
+iGVkVRyOlQrsusVMDWcT+r1qUxPoS+DTtWh83QJ9qUIOTN/sJWQ2ETDq8Taexro8noEmJaE7GoL9
+yQR6Ffh7ovjYJfBcFuhK4uRA8KIBf3MDnqpy3hwoQq9O5EaDkuCv1XFLDD6z4INJ8K5D4G4XNO5f
+IAfenzqB+3AxzvwdvMjZTPWSFCy1CfivRuGVVscuCV63CZxGQX1RrBxwFe5idFsWTzPXMZKh4aAq
+7a9/P7fS+SxQkZrKEdVSipPS2J24jAJlOlV9b+l08Kftd+GsDequw7Fu2HrcJgekpyxlZhdGO5y5
+DTVWONoF+9qgoOUH67U9kYG9hiectECpCbTnIV/3ndz6ADmVr1iReyEykFc3yJ5zsLM5zPZaH1sq
+XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="eb80a611-734b-412b-a125-58b99b1f510b"
+		isrooted="True"
+		name="DemoPopup"
+		refimgid="8513830e-bbf9-443d-9bc1-ad63caa256a6"
+		refpath="/form[@controlname='DemoPopup']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="ab148afa-aed5-4205-830f-53c0c47e86ed"
+			name="OKButton"
+			refimgid="594b1bc8-3be7-40da-b160-3fdf731504d3"
+			refpath="/form[@controlname='DemoPopup']/container/button[@controlname='OK_Button']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@controlname='DemoPopup']/?/?/button[@controlname='OK_Button']
+			</item>
+			<basepath>
+				/form[@controlname='DemoPopup']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH4SURBVDhPrdFdSJNhGMbxR1BzhTJzapnsJGgU
+RnQQEXYQhGkEgRIUihSzrKyEMM0ME00ENRY6WjPLmOasObKkHDTKmoSBERUZbNWsVdtys/nRKjr5
+9+F74AvBwLrggufk/l0Hj/gveTDoYD6VzmcB6SnLsDGZbxOdfPW2EnbXMDNawvTjPCaHNnKlOj4y
+MGRQEfY08cVVzsyzQqYeZTN5by2fB9R0VC6KDNxvTZqzmknIrmGiP4VxaxzGsoVyYGxNNM7VMTzP
+iGVkVRyOlQrsusVMDWcT+r1qUxPoS+DTtWh83QJ9qUIOTN/sJWQ2ETDq8Taexro8noEmJaE7GoL9
+yQR6Ffh7ovjYJfBcFuhK4uRA8KIBf3MDnqpy3hwoQq9O5EaDkuCv1XFLDD6z4INJ8K5D4G4XNO5f
+IAfenzqB+3AxzvwdvMjZTPWSFCy1CfivRuGVVscuCV63CZxGQX1RrBxwFe5idFsWTzPXMZKh4aAq
+7a9/P7fS+SxQkZrKEdVSipPS2J24jAJlOlV9b+l08Kftd+GsDequw7Fu2HrcJgekpyxlZhdGO5y5
+DTVWONoF+9qgoOUH67U9kYG9hiectECpCbTnIV/3ndz6ADmVr1iReyEykFc3yJ5zsLM5zPZaH1sq
+XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

@@ -1,0 +1,20 @@
+﻿<repository
+id="a4c72ed3-f7c1-4fa8-9b85-41f96c1399ae"
+name="SecondRepository">
+	<codegen
+	classname="SecondRepository"
+	namespace="Demo3DS">
+	</codegen>
+	<rootfolder
+	capname="host"
+	id="8ce7688b-8501-472e-af32-661b0deaf631"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="False">
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
