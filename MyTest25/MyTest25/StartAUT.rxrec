@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="172c7dbc-0068-479d-b2b8-095542b1bd66"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="MyTest25">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="45f71e61-a441-4975-9201-4dc602a9b58e"
+	name="MyTest25Repository"
+	relativepath="MyTest25Repository.rxrep">
+		<codegen
+		classname="MyTest25Repository"
+		namespace="MyTest25">
+		</codegen>
+		<rootfolder
+		id="bc1d7cad-510f-49e8-8446-81c93f6be507"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
